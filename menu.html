@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<!--
+	/**
+	*	The menu page of the website
+	************************************************************************
+	*	@Author Xiaoming Yang
+	*	@Initial date	2015-10-15 09:12
+	************************************************************************
+	*	update time			editor				updated information
+	*	2015-11-12			Xiaoming Yang		add a new food
+	*	
+	*
+	*/
+-->
+<html lang="en">
+ <head> 
+  <link href="images/icon.png" rel="shortcut icon" /> 
+  <title>Tsun Menu</title> 
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/menu.css" />
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+  <meta name="description" content="New Zealand, Christchurch, delicious cafe and food">
+ </head> 
+ <body data-spy="scroll" data-target="#leftMenus"> 
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse opacity8">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		 <!-- <a class="navbar-brand" href="#">Tsun</a>-->
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li> <a href="index.html">HOME</a> </li> 
+			<li> <a href="menu.html">CAFE&nbsp;&amp;&nbsp;FOOD</a> </li> 
+			<li> <a href="order.html">ORDER</a> </li> 
+			<li> <a href="gallery.html">GALLERY</a> </li> 
+			<li> <a href="contact.html">CONTACT US</a> </li> 
+			<li> <a href="about.html">ABOUT</a> </li> 
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+
+  <main> 
+	<div class="leftmode container-fluid">
+		<div class="row">
+			<div id="leftMenus" class="col-lg-3 col-md-3 col-sm-3 " >
+				<ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="10">
+					<li class="active"><a href="#coffee"><span class="glyphicon glyphicon-chevron-right chevron-right"></span>Coffee</a></li>
+					<li><a href="#sandwich">Sandwiches<span class="glyphicon glyphicon-chevron-right chevron-right"></span></a></li>
+					<li><a href="#pie">Pies<span class="glyphicon glyphicon-chevron-right chevron-right"></span></a></li>
+					<li><a href="#salad">Fresh Salads<span class="glyphicon glyphicon-chevron-right chevron-right"></span></a></li>
+				</ul>
+			</div>
+			
+			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+				<h2 id="coffee">Coffee</h2>
+				<table class="table table-bordered table-striped table-hover">				
+				   <tbody>
+					   <tr>
+						<td>
+							<div class="media">
+							  <div class="media-left">
+								<a href="latte.html">
+								  <img class="media-object" width="200" height="100" src="images/latte.jpg" alt="latte">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading"><a href="latte.html">Latte</a>&nbsp;&nbsp;&nbsp; NZ$ 7.40</h4>
+									<p>A latte is a coffee drink made with espresso and steamed milk. One traditional drinking coffee, usually as part of breakfast in the home.</p> 
+							  </div>
+							</div>
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+							<div class="media">
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" width="200" height="100" src="images/creamlatte.jpg" alt="cream latte">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading"><a href="#">Cream Latte</a>&nbsp;&nbsp;&nbsp; NZ$ 8.40</h4>
+									<p>A cream latte is a coffee drink made with espresso, steamed milk and ice cream.</p> 
+							  </div>
+							</div>
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+							<div class="media">
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" width="200" height="100" src="images/cappuccino.jpg" alt="cappuccino">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading"><a href="#">Cappuccino</a>&nbsp;&nbsp;&nbsp; NZ$ 6.50</h4>
+									<p>A cappuccino is an Italian coffee drink which is traditionally prepared with espresso, hot milk and steamed milk foam. Cream may be used instead of milk and is often topped with cinnamon. It is typically smaller in volume than a caffe latte, with a thicker layer of micro foam.</p> 
+							  </div>
+							</div>
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+							<div class="media">
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" width="200" height="100" src="images/espresso.jpg" alt="espresso">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading"><a href="#">Espresso</a>&nbsp;&nbsp;&nbsp; NZ$ 5.00</h4>
+									<p>Espresso is coffee brewed by forcing a small amount of nearly boiling water under pressure through finely ground coffee beans. Espresso is generally thicker than coffee brewed by other methods, has a higher concentration of suspended and dissolved solids, and has crema on top (a foam with a creamy consistency).</p> 
+							  </div>
+							</div>
+						</td>
+					  </tr>
+				  </tbody>
+				</table>
+				<h2 id="sandwich">Sandwiches</h2>
+				<table class="table table-bordered table-striped table-hover">				
+				   <tbody>
+					   <tr>
+						<td>
+							<div class="media">
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" width="200" height="100" src="images/bacon.jpg" alt="bacon">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading"><a href="#">Bacon</a>&nbsp;&nbsp;&nbsp; NZ$ 6.20</h4>
+									<p>A bacon sandwich is a sandwich of cooked bacon between bread that is usually spread with butter, and may be seasoned with ketchup or brown sauce. </p> 
+							  </div>
+							</div>
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+							<div class="media">
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" width="200" height="100" src="images/chicken_salad.jpg" alt="chicken_salad">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading"><a href="#">Chicken salad sandwich</a>&nbsp;&nbsp;&nbsp; NZ$ 4.50</h4>
+									<p>Chicken salad is any salad that counts chicken as a main ingredient. Other common ingredients may include mayonnaise, hard-boiled egg, celery, onion, pepper, pickles and a variety of mustards.</p> 
+							  </div>
+							</div>
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+							<div class="media">
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" width="200" height="100" src="images/bacon_egg_cheese.jpg" alt="Bacon, egg and cheese">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading"><a href="#">Bacon, egg and cheese</a>&nbsp;&nbsp;&nbsp; NZ$ 4.80</h4>
+									<p>A bacon, egg and cheese sandwich is a breakfast sandwich popular in the United States, made with bacon, eggs (typically fried or scrambled), cheese and bread, which may be buttered and toasted. </p> 
+							  </div>
+							</div>
+						</td>
+					  </tr>
+				  </tbody>
+				</table>
+				<h2 id="pie">Pies</h2>
+				<table class="table table-bordered table-striped table-hover">				
+				   <tbody>
+					   <tr>
+						<td>
+							<div class="media">
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" width="200" height="100" src="images/apple_pie.jpg" alt="apple_pie">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading"><a href="#">Apple pie</a>&nbsp;&nbsp;&nbsp; NZ$ 16.00</h4>
+									<p>An apple pie is a fruit pie in which the principal filling ingredient is apple. It is, on occasion, served with whipped cream or ice cream on top, or alongside cheddar cheese.</p> 
+							  </div>
+							</div>
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+							<div class="media">
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" width="200" height="100" src="images/blueberry_pie.jpg" alt="blueberry_pie">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading"><a href="#">Blueberry Pie</a>&nbsp;&nbsp;&nbsp; NZ$ 18.50</h4>
+									<p>Blueberry pie is a pie with a blueberry filling. Blueberry pie is considered one of the easiest pies to make because it does not require pitting or peeling of fruit. It usually has a top and bottom crust. </p> 
+							  </div>
+							</div>
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+							<div class="media">
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" width="200" height="100" src="images/Egg_tarts.jpg" alt="Egg tarts">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading"><a href="#">Egg tart</a>&nbsp;&nbsp;&nbsp; NZ$ 4.50</h4>
+									<p>A baked pastry consisting of egg custard in a cookie crust or puff crust</p> 
+							  </div>
+							</div>
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+							<div class="media">
+							  <div class="media-left">
+								<a href="#">
+								  <img class="media-object" width="200" height="100" src="images/Banana_cream_pie.jpg" alt="Banana_cream_pie">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<h4 class="media-heading"><a href="#">Banana cream pie</a>&nbsp;&nbsp;&nbsp; NZ$ 4.50</h4>
+									<p>A cream pie made with a rich custard made from milk, cream, flour, and eggs and combined with sliced bananas in a pastry or graham crumb crust. It is often made with a whipped cream topping.</p> 
+							  </div>
+							</div>
+						</td>
+					  </tr>
+				  </tbody>
+				</table>
+				<h2 id="salad">Salads</h2>
+				<table class="table table-bordered table-striped table-hover">				
+					   <tbody>
+						   <tr>
+							<td>
+								<div class="media">
+								  <div class="media-left">
+									<a href="#">
+									  <img class="media-object" width="200" height="100" src="images/fruit_salad.jpg" alt="fruit_salad">
+									</a>
+								  </div>
+								  <div class="media-body">
+									<h4 class="media-heading"><a href="#">Fruit Salad</a>&nbsp;&nbsp;&nbsp; NZ$ 5.20</h4>
+										<p>Fruit salad is a dish consisting of various kinds of fruit, sometimes served in a liquid, either in their own juices or a syrup. When served as an appetizer or as a dessert, a fruit salad is sometimes known as a fruit cocktail or fruit cup.</p> 
+								  </div>
+								</div>
+							</td>
+						  </tr>
+						  <tr>
+							<td>
+								<div class="media">
+								  <div class="media-left">
+									<a href="#">
+									  <img class="media-object" width="200" height="100" src="images/chef_salad.jpg" alt="chef_salad">
+									</a>
+								  </div>
+								  <div class="media-body">
+									<h4 class="media-heading"><a href="#">Chef Salad</a>&nbsp;&nbsp;&nbsp; NZ$ 6.10</h4>
+										<p>Chef salad (or chef's salad) is a salad consisting of hard-boiled eggs; one or more varieties of meat, such as ham, turkey, chicken, or roast beef; tomatoes; cucumbers; and cheese; all placed upon a bed of tossed lettuce or other leaf vegetables. </p> 
+								  </div>
+								</div>
+							</td>
+						  </tr>
+						  <tr>
+							<td>
+								<div class="media">
+								  <div class="media-left">
+									<a href="#">
+									  <img class="media-object" width="200" height="100" src="images/coleslaw.jpg" alt="coleslaw">
+									</a>
+								  </div>
+								  <div class="media-body">
+									<h4 class="media-heading"><a href="#">Coleslaw</a>&nbsp;&nbsp;&nbsp; NZ$ 4.50</h4>
+										<p>Coleslaw (also known as Cole slaw) is a salad consisting primarily of finely-shredded raw cabbage and dressed most commonly with a vinaigrette salad dressing. </p> 
+								  </div>
+								</div>
+							</td>
+						  </tr>
+						  <tr>
+							<td>
+								<div class="media">
+								  <div class="media-left">
+									<a href="#">
+									  <img class="media-object" width="200" height="100" src="images/golbaengi_muchim.jpg" alt="golbaengi_muchim">
+									</a>
+								  </div>
+								  <div class="media-body">
+									<h4 class="media-heading"><a href="#">Golbaengi muchim</a>&nbsp;&nbsp;&nbsp; NZ$ 6.80</h4>
+										<p>Golbaengi muchim is a type of Korean salad mainly consumed as anju when drinking alcoholic beverages such as soju or beer. It is made with Neverita didyma (a sea snail), dried shredded squid or dried Alaska pollack, vegetables such as sliced cucumber, and shredded scallions, and mixed with a hot and spicy sauce. </p> 
+								  </div>
+								</div>
+							</td>
+						  </tr>
+					  </tbody>
+				</table>
+			</div>
+		</div>	
+	</div>
+	
+	<div class="verticalmode container-fluid">
+		<ul class="nav nav-tabs">
+		<li class="active"><a href="#coffee1" data-toggle="tab">Coffee</a></li>
+		<li><a href="#sandwich1" data-toggle="tab">Sandwiches</a></li>
+		<li><a href="#pie1" data-toggle="tab">Pies</a></li>
+		<li><a href="#salad1" data-toggle="tab">Salads</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div class="tab-pane active" id="coffee1">
+				<div class="constainer">
+					<div class="row">
+						<div class="content col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center">
+							<h2>Coffee</h2>
+							<table class="table table-bordered table-striped table-hover">				
+							   <tbody>
+								   <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/latte.jpg" alt="latte">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Latte</a>&nbsp;&nbsp;&nbsp; NZ$ 7.40</h4>
+												<p>A latte is a coffee drink made with espresso and steamed milk. One traditional drinking coffee, usually as part of breakfast in the home.</p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								  <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/creamlatte.jpg" alt="cream latte">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Cream Latte</a>&nbsp;&nbsp;&nbsp; NZ$ 8.40</h4>
+												<p>A cream latte is a coffee drink made with espresso, steamed milk and ice cream.</p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								  <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/cappuccino.jpg" alt="cappuccino">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Cappuccino</a>&nbsp;&nbsp;&nbsp; NZ$ 6.50</h4>
+												<p>A cappuccino is an Italian coffee drink which is traditionally prepared with espresso, hot milk and steamed milk foam. Cream may be used instead of milk and is often topped with cinnamon. It is typically smaller in volume than a caffe latte, with a thicker layer of micro foam.</p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								  <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/espresso.jpg" alt="espresso">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Espresso</a>&nbsp;&nbsp;&nbsp; NZ$ 5.00</h4>
+												<p>Espresso is coffee brewed by forcing a small amount of nearly boiling water under pressure through finely ground coffee beans. Espresso is generally thicker than coffee brewed by other methods, has a higher concentration of suspended and dissolved solids, and has crema on top (a foam with a creamy consistency).</p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+							  </tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="tab-pane" id="sandwich1">
+				<div class="constainer">
+					<div class="row">
+						<div class="content col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center">
+							<h2>Sandwiches</h2>
+							<table class="table table-bordered table-striped table-hover">				
+							   <tbody>
+								   <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/bacon.jpg" alt="bacon">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Bacon</a>&nbsp;&nbsp;&nbsp; NZ$ 6.20</h4>
+												<p>A bacon sandwich is a sandwich of cooked bacon between bread that is usually spread with butter, and may be seasoned with ketchup or brown sauce. </p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								  <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/chicken_salad.jpg" alt="chicken_salad">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Chicken salad sandwich</a>&nbsp;&nbsp;&nbsp; NZ$ 4.50</h4>
+												<p>Chicken salad is any salad that counts chicken as a main ingredient. Other common ingredients may include mayonnaise, hard-boiled egg, celery, onion, pepper, pickles and a variety of mustards.</p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								  <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/bacon_egg_cheese.jpg" alt="Bacon, egg and cheese">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Bacon, egg and cheese</a>&nbsp;&nbsp;&nbsp; NZ$ 4.80</h4>
+												<p>A bacon, egg and cheese sandwich is a breakfast sandwich popular in the United States, made with bacon, eggs (typically fried or scrambled), cheese and bread, which may be buttered and toasted. </p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+							  </tbody>
+							</table>		
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane" id="pie1">
+				<div class="constainer">
+					<div class="row">
+						<div class="content col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center">
+							<h2>Pies</h2>
+							<table class="table table-bordered table-striped table-hover">				
+							   <tbody>
+								   <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/apple_pie.jpg" alt="apple_pie">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Apple pie</a>&nbsp;&nbsp;&nbsp; NZ$ 16.00</h4>
+												<p>An apple pie is a fruit pie in which the principal filling ingredient is apple. It is, on occasion, served with whipped cream or ice cream on top, or alongside cheddar cheese.</p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								  <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/blueberry_pie.jpg" alt="chicken_salad">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Blueberry Pie</a>&nbsp;&nbsp;&nbsp; NZ$ 18.50</h4>
+												<p>Blueberry pie is a pie with a blueberry filling. Blueberry pie is considered one of the easiest pies to make because it does not require pitting or peeling of fruit. It usually has a top and bottom crust. </p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								  <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/Egg_tarts.jpg" alt="Egg tart">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Egg tart</a>&nbsp;&nbsp;&nbsp; NZ$ 4.50</h4>
+												<p>A baked pastry consisting of egg custard in a cookie crust or puff crust</p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								  <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/Banana_cream_pie.jpg" alt="Banana_cream_pie">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Banana cream pie</a>&nbsp;&nbsp;&nbsp; NZ$ 4.50</h4>
+												<p>A cream pie made with a rich custard made from milk, cream, flour, and eggs and combined with sliced bananas in a pastry or graham crumb crust. It is often made with a whipped cream topping.</p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+							  </tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane" id="salad1">
+				<div class="constainer">
+					<div class="row">
+						<div class="content col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center">
+							<h2>Salads</h2>
+							<table class="table table-bordered table-striped table-hover">				
+							   <tbody>
+								   <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/fruit_salad.jpg" alt="fruit_salad">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Fruit Salad</a>&nbsp;&nbsp;&nbsp; NZ$ 5.20</h4>
+												<p>Fruit salad is a dish consisting of various kinds of fruit, sometimes served in a liquid, either in their own juices or a syrup. When served as an appetizer or as a dessert, a fruit salad is sometimes known as a fruit cocktail or fruit cup.</p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								  <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/chef_salad.jpg" alt="chef_salad">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Chef Salad</a>&nbsp;&nbsp;&nbsp; NZ$ 6.10</h4>
+												<p>Chef salad (or chef's salad) is a salad consisting of hard-boiled eggs; one or more varieties of meat, such as ham, turkey, chicken, or roast beef; tomatoes; cucumbers; and cheese; all placed upon a bed of tossed lettuce or other leaf vegetables. </p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								  <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/coleslaw.jpg" alt="coleslaw">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Coleslaw</a>&nbsp;&nbsp;&nbsp; NZ$ 4.50</h4>
+												<p>Coleslaw (also known as Cole slaw) is a salad consisting primarily of finely-shredded raw cabbage and dressed most commonly with a vinaigrette salad dressing. </p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								  <tr>
+									<td>
+										<div class="media">
+										  <div class="media-left">
+											<a href="#">
+											  <img class="media-object" width="200" height="100" src="images/golbaengi_muchim.jpg" alt="golbaengi_muchim">
+											</a>
+										  </div>
+										  <div class="media-body">
+											<h4 class="media-heading"><a href="#">Golbaengi muchim</a>&nbsp;&nbsp;&nbsp; NZ$ 6.80</h4>
+												<p>Golbaengi muchim is a type of Korean salad mainly consumed as anju when drinking alcoholic beverages such as soju or beer. It is made with Neverita didyma (a sea snail), dried shredded squid or dried Alaska pollack, vegetables such as sliced cucumber, and shredded scallions, and mixed with a hot and spicy sauce. </p> 
+										  </div>
+										</div>
+									</td>
+								  </tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </main>
+	<footer>
+		<div class="copyright opacity8">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<span>Copyright &copy;2015 <a href="index.html">Tsun</a></span> | 
+						<span><a href="privacy.html">Privacy</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/public.js"></script>	
+	<script src="js/menu.js"></script>	
+ </body>
+</html>

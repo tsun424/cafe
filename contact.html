@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--
+	/**
+	*	The contact page of the website
+	************************************************************************
+	*	@Author Xiaoming Yang
+	*	@Initial date	2015-11-5 10:08
+	************************************************************************
+	*	update time			editor				updated information
+	*	
+	*
+	*/
+-->
+<html lang="en">
+ <head> 
+  <link href="images/icon.png" rel="shortcut icon" /> 
+  <title>Tsun Contact Us</title> 
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/contact.css" />
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+  <meta name="description" content="New Zealand, Christchurch, delicious cafe and food">
+ 
+ </head> 
+ <body> 
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse opacity8">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		 <!-- <a class="navbar-brand" href="#">Tsun</a>-->
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li> <a href="index.html">HOME</a> </li> 
+			<li> <a href="menu.html">CAFE&nbsp;&amp;&nbsp;FOOD</a> </li> 
+			<li> <a href="order.html">ORDER</a> </li> 
+			<li> <a href="gallery.html">GALLERY</a> </li> 
+			<li> <a href="contact.html">CONTACT US</a> </li> 
+			<li> <a href="about.html">ABOUT</a> </li> 
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+
+  <main> 
+		<div id="info" class="container">
+			<div class="row">
+				<h1 id="about" class="page-header">Contact Us</h1>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+					<h3>Tsun Cafe hours:</h3>
+					<p>Monday – Friday: 7am – 4pm</p>
+					<p>Saturday – Sunday: 8am – 3pm</p>
+
+					<h3>Address:</h3>
+					<p>130 Madras St, Christchurch Central, Christchurch 8011</p>
+					<h3>Phone number:</h3>
+					<p>064-123 4567</p>
+					<p>enquiry@tsuncafe.co.nz</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+					<iframe
+					  id="rightmap" style="border:0"
+					  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD-J7wq_ZNrAWsXkCuDzD0_QglyLYyLwMY
+						&q=130 Madras St Christchurch Central Christchurch 8011" allowfullscreen>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<section id="contact" class="text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="text-center">
+							<h2 class="">Get in touch with us</h2>
+							<div class="divider-header"></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="container">
+
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+							<form id="contact-form">
+							<input type="hidden" name="body" id="body"/>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="name">Name</label>
+										<input type="text" class="form-control input-lg" name="name" id="name" placeholder="Enter name" required="required" />
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="email">Email</label>
+										<input type="email" class="form-control input-lg" name="email" id="email" placeholder="Enter email" required="required" />
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="subject">Subject</label>
+										<input type="text" class="form-control input-lg" name="subject" id="subject" placeholder="Subject" required="required" />
+									</div>
+									<div class="form-group">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required"
+											placeholder="Message"></textarea>
+									</div>						
+									<button type="submit" class="btn btn-lg btn-block btn-primary" onClick="doSubmit()" id="btnContactUs" >
+										Send Message</button>
+								</div>
+							</div>
+							</form>
+					</div>
+				</div>	
+			</div>
+	</section>
+
+  </main>
+	<footer>
+		<div class="copyright opacity8">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<span>Copyright &copy;2015 <a href="index.html">Tsun</a></span> | 
+						<span><a href="privacy.html">Privacy</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/contact.js"></script>
+	<script src="js/public.js"></script>
+ </body>
+</html>

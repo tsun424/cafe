@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--
+	/**
+	*	The order detail page of the website
+	************************************************************************
+	*	@Author Xiaoming Yang
+	*	@Initial date	2015-11-08 22:07
+	************************************************************************
+	*	update time			editor				updated information
+	*	
+	*
+	*/
+-->
+<html lang="en">
+ <head> 
+  <link href="images/icon.png" rel="shortcut icon" /> 
+  <title>Tsun Order Details</title> 
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/order.css" />
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+  <meta name="description" content="New Zealand, Christchurch, delicious cafe and food">
+ 
+ </head> 
+ <body> 
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse opacity8">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		 <!-- <a class="navbar-brand" href="#">Tsun</a>-->
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li> <a href="index.html">HOME</a> </li> 
+			<li> <a href="menu.html">CAFE&nbsp;&amp;&nbsp;FOOD</a> </li> 
+			<li> <a href="order.html">ORDER</a> </li> 
+			<li> <a href="gallery.html">GALLERY</a> </li> 
+			<li> <a href="contact.html">CONTACT US</a> </li> 
+			<li> <a href="about.html">ABOUT</a> </li> 
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+
+  <main> 
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+				<h1 class="page-header">Personal Information</h1>
+				<form class="form-horizontal" id="order-form" action="mailto:tsun424@gmail.com">
+					<input type="hidden" name="body" id="body"/>
+					<input type="hidden" name="subject" id="subject"/>		
+					<div class="form-group">
+						<label for="name" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Your Name</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="text" class="form-control" id="name" name="name" placeholder="Name" required="required">
+						</div>
+						<label for="email" class=" col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Your Email</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="required">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="time" class=" col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Delivery Time</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="datetime-local" class="form-control" id="time" name="time" required="required">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="address" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Delivery Address</label>
+						<div class="col-lg-10 col-md-10 col-xs-10 col-sm-10">
+						  <input type="text" class="form-control" id="address" name="address" placeholder="Address" required="required">
+						</div>
+					</div>
+						
+					<h1 class="page-header">Coffee</h1>
+					<div class="form-group">
+						<label for="latte" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Latte</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="latte" name="latte" placeholder="cups">
+						</div>
+						<label for="creamlatte" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Cream Latte</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="creamlatte" name="creamlatte" placeholder="cups">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="cappuccino" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Cappuccino</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="cappuccino" name="cappuccino" placeholder="cups">
+						</div>
+						<label for="espresso" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Espresso</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="espresso" name="espresso" placeholder="cups">
+						</div>
+					</div>
+					<h1 class="page-header">Sandwiches</h1>
+					<div class="form-group">
+						<label for="bacon" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Bacon</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="bacon" name="bacon" placeholder="pieces">
+						</div>
+						<label for="chicksalad" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Chicken salad</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="chicksalad" name="chicksalad" placeholder="pieces">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="baconegg" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Bacon, egg and cheese</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="baconegg" name="baconegg" placeholder="pieces">
+						</div>
+					</div>
+					<h1 class="page-header">Pies</h1>
+					<div class="form-group">
+						<label for="applepie" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Apple Pie</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="applepie" name="applepie" placeholder="pieces">
+						</div>
+						<label for="blueberry" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Blueberry Pie</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="blueberry" name="blueberry" placeholder="pieces">
+						</div>
+					</div>
+	
+					<h1 class="page-header">Salad</h1>
+					<div class="form-group">
+						<label for="fruitsalad" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Fruit Salad</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="fruitsalad" name="fruitsalad" placeholder="plates">
+						</div>
+						<label for="chefsalad" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Chef Salad</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="chefsalad" name="chefsalad" placeholder="plates">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="coleslaw" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Coleslaw</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="number" class="form-control" id="coleslaw" name="coleslaw" placeholder="plates">
+						</div>
+						<label for="golbaengi" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 control-label">Golbaengi muchim</label>
+						<div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+						  <input type="text" class="form-control" id="golbaengi" name="golbaengi" placeholder="plates">
+						</div>
+					</div>
+					<input type="submit" class="btn btn-lg btn-block btn-primary" onClick="doOrder();" id="btn-order" value="Order" />
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+  </main>
+	<footer>
+		<div class="copyright opacity8">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<span>Copyright &copy;2015 <a href="index.html">Tsun</a></span> | 
+						<span><a href="privacy.html">Privacy</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/orderdetail.js"></script>
+	<script src="js/public.js"></script>
+ </body>
+</html>

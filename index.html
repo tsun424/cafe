@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+	/**
+	*	The home html file of the whole website
+	************************************************************************
+	*	@Author Xiaoming Yang
+	*	@Initial date	2015-10-03 10:48
+	************************************************************************
+	*	update time			editor				updated information
+	*	
+	*
+	*/
+-->
+<html>
+ <head> 
+
+  <link href="images/icon.png" rel="shortcut icon" /> 
+  <title>Tsun Cafe</title> 
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather&effect=shadow-multiple|outline"/>
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+  <meta name="description" content="New Zealand, Christchurch, delicious cafe and food">
+ </head> 
+ <body> 
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse opacity8">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <!--<a class="navbar-brand" href="index.html">Tsun</a>-->
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li> <a href="index.html">HOME</a> </li> 
+			<li> <a href="menu.html">CAFE&nbsp;&amp;&nbsp;FOOD</a> </li> 
+			<li> <a href="order.html">ORDER</a> </li> 
+			<li> <a href="gallery.html">GALLERY</a> </li> 
+			<li> <a href="contact.html">CONTACT US</a> </li> 
+			<li> <a href="about.html">ABOUT</a> </li> 
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+  <main> 
+
+       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<section id="welcome">
+				<div class="container">
+				  <div class="row">
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 text-center inner">
+							<h1 class="animated fadeInDown go font-effect-shadow-multiple">Welcome to Tsun Cafe</h1>
+							<audio id="myaudio" class="animated fadeInUp go" autoplay="autoplay" loop="loop" controls="controls">
+								<source src="media/shenshi.mp3" type="audio/mpeg">
+								<source src="media/shenshi.ogg" type="audio/ogg">
+							</audio>
+							<h2 class="animated fadeInUp go font-effect-shadow-multiple">It's coffee time</h2>
+						</div>
+				  </div>
+				</div>
+			</section>
+			<ol class="carousel-indicators">
+			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			  <li data-target="#myCarousel" data-slide-to="1"></li>
+			  <li data-target="#myCarousel" data-slide-to="2"></li>
+			  <li data-target="#myCarousel" data-slide-to="4"></li>
+			  <li data-target="#myCarousel" data-slide-to="5"></li>
+			</ol>
+			<div class="carousel-inner">
+			  <div class="item active">
+				<img src="images/coffee1.jpg" alt="coffee time">
+			  </div>
+			  <div class="item">
+				<img src="images/coffee2.jpg" alt="coffee bean">
+			  </div>
+			  <div class="item">
+				<img src="images/coffee3.jpg" alt="latte">
+			  </div>
+			  <div class="item">
+				<img src="images/coffee4.jpg" alt="food">
+			  </div>
+			  <div class="item">
+				<img src="images/coffee5.jpg" alt="maffin and coffee">
+			  </div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left center "></span>
+				<span class="sr-only">Prev</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right center "></span>
+				<span class="sr-only">Next</span>
+			</a>
+			
+		  </div>
+         
+     </main>   
+
+	<footer>
+		<div class="copyright navbar-fixed-bottom navbar-inverse opacity8">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<span>Copyright &copy;2015 <a href="index.html">Tsun</a></span> | 
+						<span><a href="privacy.html">Privacy</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/public.js"></script>	
+	<script src="js/index.js"></script>	
+ </body>
+</html>
